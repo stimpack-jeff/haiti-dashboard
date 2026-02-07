@@ -104,6 +104,25 @@ export default function Home() {
         <span className="ml-4 text-red-100">Haiti enters constitutional vacuum - No legal government in place</span>
       </div>
 
+      {/* NEWS TICKER */}
+      <div className="bg-red-700 text-white py-2 overflow-hidden border-b border-red-500/50">
+        <div className="ticker-wrapper">
+          <div className="ticker-content">
+            <span className="ticker-item">📰 Reuters: Haiti enters political limbo as transition government ends</span>
+            <span className="ticker-item">📰 NYT: Haiti reaches &apos;full crisis&apos; as CPT mandate expires</span>
+            <span className="ticker-item">📰 US Embassy warns of potential unrest tied to Feb 7 deadline</span>
+            <span className="ticker-item">📰 DOJ appeals TPS termination block</span>
+            <span className="ticker-item">📰 350,000+ Haitian TPS holders face uncertainty</span>
+            {/* Duplicate for seamless loop */}
+            <span className="ticker-item">📰 Reuters: Haiti enters political limbo as transition government ends</span>
+            <span className="ticker-item">📰 NYT: Haiti reaches &apos;full crisis&apos; as CPT mandate expires</span>
+            <span className="ticker-item">📰 US Embassy warns of potential unrest tied to Feb 7 deadline</span>
+            <span className="ticker-item">📰 DOJ appeals TPS termination block</span>
+            <span className="ticker-item">📰 350,000+ Haitian TPS holders face uncertainty</span>
+          </div>
+        </div>
+      </div>
+
       {/* Header */}
       <header className="border-b border-white/10 bg-black/40 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
