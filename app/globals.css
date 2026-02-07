@@ -37,7 +37,8 @@ body {
   white-space: nowrap;
 }
 
-.ticker-content:hover {
+.ticker-content:hover,
+.ticker-content:focus-within {
   animation-play-state: paused;
 }
 
