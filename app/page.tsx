@@ -464,6 +464,13 @@ export default function Home() {
                   Systematic knowledge gap identification and evidence-based analysis of Haiti&apos;s crisis
                 </p>
                 
+                <a 
+                  href="/research" 
+                  className="inline-block bg-green-600 hover:bg-green-500 text-white font-bold px-6 py-3 rounded-lg transition-all mb-6"
+                >
+                  📚 Access Full Research Library (7 Documents, 162KB)
+                </a>
+                
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-5xl mx-auto">
                   <div className="bg-black/20 backdrop-blur rounded-lg p-4 border border-white/10">
                     <div className="text-blue-300 text-sm">Research Time</div>
